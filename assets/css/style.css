@@ -1117,6 +1117,7 @@ section {
   width: 700px;
   position: relative;
   left: 170px;
+  top: 10px;
 }
 
 
@@ -1140,10 +1141,8 @@ section {
 
 .container i{
   color: #004f51;
-  font-size: 20px;
   position: relative;
   left: 180px;
-  top: -10px;
 
 }
 
@@ -1151,16 +1150,13 @@ section {
   color: #004f51;
   position: relative;
   left: 185px;
-  top: -10px;
 }
 
 @media (max-width: 1199px) {
   .container i {
     color: #004f51;
-    font-size: 20px;
     position: relative;
     left: 10px;
-    top: -10px;
 
   }
 }
@@ -1169,6 +1165,6 @@ section {
       color: #004f51;
       position: relative;
       left: 20px;;
-      top: -10px;
+
     }
   }
