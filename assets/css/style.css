@@ -317,6 +317,9 @@ section {
 
 .section-bg {
   background: #f5f8fd;
+
+  /*background:#090117;*/
+  /*background: url("../img/background2.png") ;*/
 }
 
 .section-title {
@@ -1139,7 +1142,7 @@ section {
   }
 }
 
-.container i{
+.container i1{
   color: #004f51;
   position: relative;
   left: 180px;
@@ -1153,7 +1156,7 @@ section {
 }
 
 @media (max-width: 1199px) {
-  .container i {
+  .container i1 {
     color: #004f51;
     position: relative;
     left: 10px;
