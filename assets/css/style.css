@@ -1114,8 +1114,11 @@ section {
 
 .MyProjectVideo video{
   border-radius:12px;
-  width: 800px;
+  width: 700px;
+  position: relative;
+  left: 170px;
 }
+
 
 @media (max-width: 1199px) {
   .contact .info {
@@ -1126,3 +1129,46 @@ section {
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   }
 }
+
+@media (max-width: 1199px) {
+  .MyProjectVideo video {
+    border-radius:12px;
+    width: 100%;
+    left: 0px;
+  }
+}
+
+.container i{
+  color: #004f51;
+  font-size: 20px;
+  position: relative;
+  left: 180px;
+  top: -10px;
+
+}
+
+.container p11{
+  color: #004f51;
+  position: relative;
+  left: 185px;
+  top: -10px;
+}
+
+@media (max-width: 1199px) {
+  .container i {
+    color: #004f51;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    top: -10px;
+
+  }
+}
+  @media (max-width: 1199px) {
+    .container p11 {
+      color: #004f51;
+      position: relative;
+      left: 20px;;
+      top: -10px;
+    }
+  }
