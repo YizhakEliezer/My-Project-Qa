@@ -72,7 +72,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-    border: 3px solid white;
+    border: 1px solid white;
     position: fixed;
     top: 0;
     left: 0;
@@ -324,7 +324,7 @@ section {
 
     background:#090117;
     /*background: url("../img/background2.png") ;*/
-    border: 2px solid #555555;
+    border: 1px solid #555555;
 }
 
 .section-title {
@@ -1097,7 +1097,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-    border: 3px solid white;
+    border: 1px solid white;
     padding: 15px;
     color: #f4f6fd;
     font-size: 14px;
@@ -1209,13 +1209,43 @@ section {
 }
 
 .about{
-    border: 2px solid #555555;
+    border: 1px solid #555555;
 }
 
 .resume{
-    border: 2px solid #555555;
+    border: 1px solid #555555;
 }
 
 .contact{
-    border: 2px solid #555555;
+    border: 1px solid #555555;
+}
+
+
+.col-lg-8 .row .col-lg-6 li{
+    position: relative;
+    right: 400px;
+    top: 50px;
+}
+
+.col-lg-8 h3{
+    position: relative;
+    right: 400px;
+    top: 40px;
+}
+
+
+@media (max-width: 1199px) {
+.col-lg-8 .row .col-lg-6 li{
+    position: relative;
+    right: 0px;
+    top: -10px;
+}
+}
+
+@media (max-width: 1199px) {
+.col-lg-8 h3{
+    position: relative;
+    right: 0px;
+    top: -20px;
+}
 }
