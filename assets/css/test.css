@@ -1249,3 +1249,17 @@ section {
     top: -20px;
 }
 }
+
+
+.col-lg-7{
+    position: relative;
+    right: 250px;
+}
+
+
+@media (max-width: 1199px) {
+    .col-lg-7{
+        position: relative;
+        right: 0px;
+    }
+}
