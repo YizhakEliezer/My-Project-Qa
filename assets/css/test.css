@@ -322,6 +322,7 @@ section {
 .section-bg {
     /*background: #f5f8fd;*/
 
+    /*background:#090117;*/
     background:#090117;
     /*background: url("../img/background2.png") ;*/
     border: 1px solid #555555;
@@ -356,6 +357,9 @@ section {
     color: white;
 }
 
+.section-title li {
+    margin-bottom: 11px;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -1130,8 +1134,9 @@ section {
 }
 
 .MyProjectVideo video{
+    border: 1px solid white;
     border-radius:12px;
-    width: 700px;
+    width: 800px;
     position: relative;
     left: 170px;
     top: 20px;
@@ -1150,6 +1155,7 @@ section {
 
 @media (max-width: 1199px) {
     .MyProjectVideo video {
+        border: 1px solid white;
         border-radius:12px;
         width: 100%;
         left: 0px;
@@ -1157,21 +1163,26 @@ section {
 }
 
 .container i1{
-    color: white;
+    color: #7fc3c5;
     position: relative;
     left: 180px;
+    font-size: 30px;
 
 }
+
+
+
 
 .container p11{
     color: white;
     position: relative;
     left: 185px;
+    font-size: 25px;
 }
 
 @media (max-width: 1199px) {
     .container i1 {
-        color: white;
+        color: #7fc3c5;
         position: relative;
         left: 10px;
 
@@ -1263,3 +1274,4 @@ section {
         right: 0px;
     }
 }
+
